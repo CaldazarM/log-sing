@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="rick-and-morty-cool-desktop-jg5qtvborwipq8st.jpg" id="imgbackground">
+    
+    <div id="app">
+
+<div class="alert-outline"
+ :class="{red:statuv}" > 
+<img :src="closeimg"  @click="closeimgfunction" style="position: relative;left: 2px;width: 20px;
+height: 20px;top: 6px;color: white;">
+ please  entry the password or username! </div>
+
+
+    <div id="logpage">
+        <button class="lsstyle" id="login" href="index.html"> login </button>
+        <button class="lsstyle" id="sign" href="singin-page.html"> singin</button>
+        <div id="backgroundform1"></div>
+        <form action="" id="loginform">
+         <label id="logolog">Login</label>
+         <label id="logo_name"> 
+            Usernames
+         </label>
+            <input class="idinput_form" 
+            style="top: 120px;"
+            v-model="community.names" name="username" title="ttfgyh">
+            <label id="logo_password">
+                Password
+            </label>
+            <input class="paswordinput_form" v-model="community.pass" name="number"  >
+            <a type="submit" id="submitbutton" 
+            @click="loginfunction" @click="emptyworning" :href="href" target="_blank">
+            
+            
+            submit</a>
+            <div v-if="i===1 && chek!=true" v-else=" visibility: hidden" id="notexisisttext">
+                user name or password dosnt exist!!
+            </div>
+            <div id="singinlable" style="font-size: 15px; color: black;" >dont  have an count?
+                <a href="singin-page.html" style=" font-family: ' Calibri';font-size: 18px; color:#400E32;">
+                    singin</a></div>
+     </form>
+    </div>
+    <div id="fixed">
+        <img src="github.png" class="fixedliste" id="githubicon">
+        <img src="telegram.png"class="fixedliste" id="telgramicon">
+        <img src="instagram.png"class="fixedliste" id="instagramicon">
+        <img src="icons8-facebook-48.png" class="fixedliste" id="facebokicon">
+    </div>
+       </div>
+     
+
+
+      
+   </div>
+
+
+
+
+
+    </div> 
+
+
+
+
+
+    
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="main.js"></script>
+</body>
+</html>

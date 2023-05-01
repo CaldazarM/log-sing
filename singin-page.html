@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css">
+      
+        <img src="rick-and-morty-cool-desktop-jg5qtvborwipq8st.jpg" id="imgbackground">
+    
+        <div id="app">
+    
+    <div class="alert-outline"
+     :class="{red:statuv}" > 
+    <img :src="closeimg"  @click="closeimgfunction" style="position: relative;left: 2px;width: 20px;
+    height: 20px;top: 6px;color: white;">
+     please  entry the password or username! </div>
+    
+    
+        <div id="logpage">
+            <button class="lsstyle" id="login" href="logpage"> login </button>
+            <button class="lsstyle" id="sign"> singin</button>
+
+            <div id="backgroundform1" style="width: 350px;
+            height: 465px;
+            top: -580px;"></div>
+            <form action="" id="loginform" style="top: -1060px;">
+             <label id="logolog">singin</label>
+
+
+
+             <label id="logo_name"> 
+                Usernames
+             </label>
+           <input class="idinput_form" v-model="newmemmber.username" name="username" title="ttfgyh" 
+           :class="{idinput_formempty:empty1}"
+           style="width: 275px;top: 109px;">
+           
+             <label id="logo_name" style="top: 120px;left: 20px;"> 
+                Emailadress
+             </label>
+             <input class="idinput_form" v-model="newmemmber.email" name="username" title="ttfgyh" 
+             :class="{idinput_formempty:empty3}"
+            > 
+
+
+                <label id="logo_password" style="top: 140px; ">
+                    Password
+                </label>
+                <input class="paswordinput_form" v-model="newmemmber.password" name="number"  
+                :class="{paswordinput_formemptyform:empty2}" >
+                
+                <a type="submit" id="submitbutton" 
+                @click="singinfunction" @click="emptyworning" :href="href" target="_blank">
+                
+                
+                Lets go!</a>
+               
+                <div id="singinlable" style="font-size: 15px; color: black;"
+                
+                >do you have an count?<a href="index.html"
+                style=" font-family: ' Calibri';font-size: 18px; color:#400E32"
+                >Log in</a></div>
+         </form>
+        </div>
+        <div id="fixed">
+            <img src="github.png" class="fixedliste" id="githubicon">
+            <img src="telegram.png"class="fixedliste" id="telgramicon">
+            <img src="instagram.png"class="fixedliste" id="instagramicon">
+            <img src="icons8-facebook-48.png" class="fixedliste" id="facebokicon">
+        </div>
+           </div>
+         
+    
+    
+          
+       </div>
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+        
+
+        <script src="https://unpkg.com/vue@next"></script>
+      
+       <script src="main.js"></script>
+    </body>
+    </html>
+    
